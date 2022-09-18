@@ -3,13 +3,55 @@ title: nvrscape
 layout: default
 permalink: /enter/
 ---
+
+<style>
+
+.bkg-img {
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bkg-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.enter-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;    
+    border-style: solid;
+}
+
+#enter-btn {
+    text-decoration: none;
+}
+
+</style>
+
 <div>
     <!-- bkg image animation     -->
-    <div class="bkgImg">
+    <div class="bkg-img">
+        <video class="bkg-video" autoplay loop muted>
+            <source src="/images/enter.mp4" type="video/mp4">
+        </video>
     </div>
-
     <!-- enter button -->
-    <div>
-        <a href="/shop.html"></a>
+    <div class="enter-btn">
+        <a id="enter-btn" href="/shop">enter</a>
     </div>    
 </div>

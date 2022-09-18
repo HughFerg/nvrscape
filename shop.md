@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 .nav-container {
     display: flex;
     align-items: center;
@@ -28,17 +32,25 @@ a {
 
 .product-row {
   display: flex;
-  padding: 4em;
+  padding: 2em 0 4em 0;
   justify-content: center;
+    align-items: center;
+  width: 100%;
 }
 
 .product-img {
-    width: 20em;
-    height: auto;
+    height: 28%;
+    /* align-items: center; */
 }
 
 .product-img-link {
 
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 </style>
@@ -53,10 +65,10 @@ a {
         </video> 
     </div>
     <div class="nav-links">
-        <a class="nav-link" href="./index.html">home</a>
-        <a class="nav-link" href="./shop.html">shop</a>
-        <a class="nav-link" href="./gallery.html">gallery</a>
-        <a class="nav-link" href="./faq.html">faq</a>
+        <a class="nav-link" href="/enter">home</a>
+        <a class="nav-link" href="/shop.html">shop</a>
+        <a class="nav-link" href="/gallery.html">gallery</a>
+        <a class="nav-link" href="/faq.html">faq</a>
     </div>
 </div>
 
@@ -74,4 +86,8 @@ a {
     <a class="product-img-link">
         <img class="product-img" src="../images/products/belt-shot1.png">
     </a>
+</div>
+
+<div class="footer">
+copyright © 2022
 </div>
