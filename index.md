@@ -47,11 +47,11 @@ permalink: /enter/
     <!-- bkg image animation     -->
     <div class="bkg-img">
         <video class="bkg-video" autoplay loop muted>
-            <source src="/images/enter.mp4" type="video/mp4">
+            <source src="../images/enter.mp4" type="video/mp4">
         </video>
     </div>
     <!-- enter button -->
     <div class="enter-btn">
-        <a id="enter-btn" href="/shop">enter</a>
+        <a id="enter-btn" href="{{ site.baseurl }}/shop">enter</a>
     </div>    
 </div>

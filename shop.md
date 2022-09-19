@@ -65,10 +65,10 @@ img {
         </video> 
     </div>
     <div class="nav-links">
-        <a class="nav-link" href="/enter">home</a>
-        <a class="nav-link" href="/shop.html">shop</a>
-        <a class="nav-link" href="/gallery.html">gallery</a>
-        <a class="nav-link" href="/faq.html">faq</a>
+        <a class="nav-link" href="{{ site.baseurl }}/enter">home</a>
+        <a class="nav-link" href="{{ site.baseurl }}/shop">shop</a>
+        <a class="nav-link" href="{{ site.baseurl }}/gallery">gallery</a>
+        <a class="nav-link" href="{{ site.baseurl }}/faq">faq</a>
     </div>
 </div>
 
