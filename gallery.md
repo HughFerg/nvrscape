@@ -1,7 +1,7 @@
 ---
 layout: default
-title: shop
-permalink: /shop/
+title: gallery
+permalink: /gallery/
 ---
 <style>
 
@@ -37,11 +37,11 @@ img {
 }
 
 .product-row {
-    display: flex;
-    padding: 2em 0 4em 0;
-    justify-content: center;
+  display: flex;
+  padding: 2em 0 4em 0;
+  justify-content: center;
     align-items: center;
-    width: 100%;
+  width: 100%;
 }
 
 .product-img {
@@ -54,12 +54,9 @@ img {
 }
 
 .footer {
-    position:fixed;
-    bottom:0;
-    left:0;
-    width:100%;
-    text-align: center;
-    padding-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 </style>
@@ -75,8 +72,8 @@ img {
     </div>
     <div class="nav-links">
         <a class="nav-link" href="{{ site.baseurl }}">home</a>
-        <a class="nav-link active" href="{{ site.baseurl }}/shop">shop</a>
-        <a class="nav-link" href="{{ site.baseurl }}/gallery">gallery</a>
+        <a class="nav-link" href="{{ site.baseurl }}/shop">shop</a>
+        <a class="nav-link active" href="{{ site.baseurl }}/gallery">gallery</a>
         <a class="nav-link" href="{{ site.baseurl }}/faq">faq</a>
     </div>
 </div>
