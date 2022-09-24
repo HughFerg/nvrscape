@@ -39,6 +39,59 @@ permalink: /
 #enter-btn {
     text-decoration: none;
     border-style: solid;
+    border-width: 1px;
+    color: #dfdfdfdf;
+    background-color: #232222df;
+    opacity: 75%;
+    padding: .5em;
+}
+
+.enter-btn:hover,
+.enter-btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.content-item {
+    list-style: none;
+}
+
+.marquee {
+    /* position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%; */
+	overflow: hidden;
+	pointer-events: none;
+}
+.marquee__inner {
+    color: #232222df;
+    padding: .5em;
+	width: fit-content;
+	display: flex;
+	position: relative;
+	--offset: 1rem;
+	--move-initial: calc(-25% + var(--offset));
+	--move-final: calc(-50% + var(--offset));
+	transform: translate3d(var(--move-initial), 0, 0);
+	animation: marquee 1s linear infinite;
+}
+
+.marquee span {
+	text-align: center;
+	white-space: nowrap;
+	font-style: italic;
+	padding: 1.5rem 0.5rem;
+}
+
+@keyframes marquee {
+	0% {
+		transform: translate3d(var(--move-initial), 0, 0);
+	}
+
+	100% {
+		transform: translate3d(var(--move-final), 0, 0);
+	}
 }
 
 </style>
@@ -52,6 +105,20 @@ permalink: /
     </div>
     <!-- enter button -->
     <div class="enter-btn">
-        <a id="enter-btn" href="{{ site.baseurl }}/shop">enter</a>
+        <a id="enter-btn" href="{{ site.baseurl }}/shop">ENTER</a>
+
+        <!-- <li class="content-item">
+            <button class="">
+                <!-- <span>ENTER</span> -->
+                <!-- <div class="marquee">
+                    <div class="marquee__inner">
+                        <span>ENTER</span>
+                        <span>ENTER</span>
+                        <span>ENTER</span>
+                        <span>ENTER</span>
+                    </div>
+                </div>
+            </button> -->
+        <!-- </li>  -->
     </div>    
 </div>
