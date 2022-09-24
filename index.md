@@ -1,7 +1,7 @@
 ---
 title: nvrscape
 layout: default
-permalink: /enter/
+permalink: /
 ---
 
 <style>
