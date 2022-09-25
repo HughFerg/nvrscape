@@ -74,28 +74,14 @@ img {
         </video> 
     </div>
     <div class="nav-links">
-        <a class="nav-link" href="{{ site.baseurl }}">home</a>
+        <a class="nav-link" href="{{ site.baseurl }}/">home</a>
         <a class="nav-link" href="{{ site.baseurl }}/shop">shop</a>
         <a class="nav-link" href="{{ site.baseurl }}/gallery">gallery</a>
         <a class="nav-link active" href="{{ site.baseurl }}/faq">faq</a>
     </div>
 </div>
 
-<!-- product row -->
-<div class="product-row">
-    <a class="product-img-link" href="./">
-        <img class="product-img" src="../images/products/angel-tee1.png">
-    </a>
-    <a class="product-img-link">
-        <img class="product-img" src="../images/products/staircase-tee.png">
-    </a>
-    <a class="product-img-link">
-        <img class="product-img" src="../images/products/bandana1.png">
-    </a>
-    <a class="product-img-link">
-        <img class="product-img" src="../images/products/belt-shot1.png">
-    </a>
-</div>
+<!-- faq body -->
 
 <div class="footer">
 copyright © 2022 Nvrscape

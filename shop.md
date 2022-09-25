@@ -36,17 +36,22 @@ img {
     height: auto;
 }
 
-.product-row {
-    display: flex;
-    padding: 2em 0 4em 0;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+@media only screen and (min-device-width: 768px){
+    .product-row {
+        display: flex;
+        padding: 2em 0 4em 0;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .product-img {
+        /* height: 28%; */
+    }
 }
 
 .product-img {
-    height: 28%;
-    /* align-items: center; */
+    /* height: 28%; */
 }
 
 .product-img-link {
