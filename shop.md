@@ -32,14 +32,24 @@ img {
 }
 
 .header-img {
-    width: 30em;
+    width: 20em;
     height: auto;
 }
 
+.product-row {
+    padding: 2em 2em 4em 2em;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (min-device-width: 768px){
+    .header-img {
+        width: 30em;
+        height: auto;
+    }
     .product-row {
         display: flex;
-        padding: 2em 0 4em 0;
+        padding: 2em 1em 4em 1em;
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -65,6 +75,7 @@ img {
     width:100%;
     text-align: center;
     padding-bottom: 1em;
+    font-size: .6em;
 }
 
 </style>
@@ -88,20 +99,20 @@ img {
 
 <!-- product row -->
 <div class="product-row">
-    <a class="product-img-link" href="./">
+    <a class="product-img-link" href="{{ site.baseurl }}/gate-belt">
+        <img class="product-img" src="../images/products/belt-shot1.png">
+    </a>
+    <a class="product-img-link" href="{{ site.baseurl }}/transcendance-tee">
         <img class="product-img" src="../images/products/angel-tee1.png">
     </a>
-    <a class="product-img-link">
-        <img class="product-img" src="../images/products/staircase-tee.png">
+    <a class="product-img-link" href="{{ site.baseurl }}/spiral-tee">
+        <img class="product-img" src="../images/products/spiral-tee.png">
     </a>
-    <a class="product-img-link">
+    <a class="product-img-link" href="{{ site.baseurl }}/compass-bandanna">
         <img class="product-img" src="../images/products/bandana1.png">
-    </a>
-    <a class="product-img-link">
-        <img class="product-img" src="../images/products/belt-shot1.png">
     </a>
 </div>
 
 <div class="footer">
-copyright © 2022 Nvrscape
+copyright © 2022 nvrscape
 </div>
