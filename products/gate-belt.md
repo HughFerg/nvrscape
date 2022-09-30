@@ -97,7 +97,7 @@ img {
     </div>
 </div>
 <div class="product-container">
-<div id='product-component-1664408617959'></div>
+<div id='product-component-1664556237457'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -126,7 +126,7 @@ img {
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '7790754398454',
-        node: document.getElementById('product-component-1664408617959'),
+        node: document.getElementById('product-component-1664556237457'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -144,6 +144,13 @@ img {
       },
       "button": {
         "font-family": "Lato, sans-serif",
+        ":hover": {
+          "background-color": "#181414"
+        },
+        "background-color": "#0e0c0c",
+        ":focus": {
+          "background-color": "#181414"
+        },
         "border-radius": "0px",
         "padding-left": "138px",
         "padding-right": "138px"
@@ -198,6 +205,13 @@ img {
       },
       "button": {
         "font-family": "Lato, sans-serif",
+        ":hover": {
+          "background-color": "#181414"
+        },
+        "background-color": "#0e0c0c",
+        ":focus": {
+          "background-color": "#181414"
+        },
         "border-radius": "0px",
         "padding-left": "138px",
         "padding-right": "138px"
@@ -239,6 +253,13 @@ img {
     "styles": {
       "button": {
         "font-family": "Lato, sans-serif",
+        ":hover": {
+          "background-color": "#181414"
+        },
+        "background-color": "#0e0c0c",
+        ":focus": {
+          "background-color": "#181414"
+        },
         "border-radius": "0px"
       }
     },
@@ -246,6 +267,7 @@ img {
       "total": "Subtotal",
       "button": "Checkout"
     },
+    "popup": false,
     "googleFonts": [
       "Lato"
     ]
@@ -253,7 +275,14 @@ img {
   "toggle": {
     "styles": {
       "toggle": {
-        "font-family": "Lato, sans-serif"
+        "font-family": "Lato, sans-serif",
+        "background-color": "#0e0c0c",
+        ":hover": {
+          "background-color": "#181414"
+        },
+        ":focus": {
+          "background-color": "#181414"
+        }
       }
     },
     "googleFonts": [
@@ -267,7 +296,6 @@ img {
 })();
 /*]]>*/
 </script>
-</div>
 
 <div class="footer">
 copyright © 2022 nvrscape
