@@ -13,6 +13,12 @@ img {
     max-width: 100%;
 }
 
+.content-container {
+    position: relative;
+    /* display: flex; */
+    /* min-height: 100vh; */
+}
+
 .nav-container {
     display: flex;
     align-items: center;
@@ -37,12 +43,17 @@ img {
 }
 
 .product-row {
-    padding: 2em 2em 4em 2em;
+    padding: 0em 2em 4em 2em;
     justify-content: center;
     align-items: center;
 }
 
 @media only screen and (min-device-width: 768px){
+
+    .content-container {
+        height: 60em;
+    }
+
     .header-img {
         width: 30em;
         height: auto;
@@ -69,17 +80,19 @@ img {
 }
 
 .footer {
-    position:fixed;
+    position: absolute;
     bottom:0;
     left:0;
     width:100%;
+    /* height: 3em; */
     text-align: center;
-    padding-bottom: 1em;
-    font-size: .6em;
+    align-items: center;
+        /* margin-top: auto; */
 }
 
 </style>
 <!-- nav links -->
+<div class="content-container">
 <div class="nav-container">
     <!-- gif header -->
     <div class="header-logo">
@@ -114,5 +127,16 @@ img {
 </div>
 
 <div class="footer">
+<a href="https://www.instagram.com/nvrscape/">
+    <i class="fa-brands fa-square-instagram fa-xl"></i>
+</a>
+<a href="https://twitter.com/nvrscape">
+    <i class="fa-brands fa-square-twitter fa-xl"></i>
+</a>
+<br>
+<br>
+<div style="font-size: .6em">
 copyright © 2022 nvrscape
+</div>
+</div>
 </div>
