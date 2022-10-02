@@ -82,7 +82,3 @@ img {
 </div>
 
 <!-- faq body -->
-
-<div class="footer">
-copyright © 2022 Nvrscape
-</div>

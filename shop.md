@@ -41,17 +41,4 @@ permalink: /shop/
     </a>
 </div>
 
-<div class="footer">
-<a href="https://www.instagram.com/nvrscape/">
-    <i class="fa-brands fa-square-instagram fa-xl"></i>
-</a>
-<a href="https://twitter.com/nvrscape">
-    <i class="fa-brands fa-square-twitter fa-xl"></i>
-</a>
-<br>
-<br>
-<div style="font-size: .6em">
-copyright © 2022 nvrscape
-</div>
-</div>
 </div>
