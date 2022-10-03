@@ -220,7 +220,3 @@ permalink: /gate-belt/
 })();
 /*]]>*/
 </script>
-
-<div class="footer">
-copyright © 2022 nvrscape
-</div>
