@@ -11,7 +11,7 @@ permalink: /shop/
 <div class="nav-container">
     <!-- gif header -->
     <div class="header-logo">
-        <video class="header-img" autoplay loop muted>
+        <video class="header-img" autoplay loop muted playsinline defaultMuted>
             <source src="../images/rotating-logo.mp4" type="video/mp4">
             <!-- webp here? -->
             Your browser does not support the video tag.
