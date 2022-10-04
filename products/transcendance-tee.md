@@ -193,7 +193,3 @@ permalink: /transcendance-tee/
 /*]]>*/
 </script>
 </div>
-
-<div class="footer">
-copyright © 2022 nvrscape
-</div>
