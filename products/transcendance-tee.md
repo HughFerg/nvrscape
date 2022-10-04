@@ -14,10 +14,10 @@ permalink: /transcendance-tee/
         </video> 
     </div>
     <div class="nav-links">
-        <a class="nav-link" href="{{ site.baseurl }}/">home</a>
-        <a class="nav-link active" href="{{ site.baseurl }}/shop">shop</a>
-        <a class="nav-link" href="{{ site.baseurl }}/gallery">gallery</a>
-        <a class="nav-link" href="{{ site.baseurl }}/faq">faq</a>
+        <a class="nav-link" href="{{ site.url }}/">home</a>
+        <a class="nav-link active" href="{{ site.url }}/shop">shop</a>
+        <a class="nav-link" href="{{ site.url }}/gallery">gallery</a>
+        <a class="nav-link" href="{{ site.url }}/faq">faq</a>
     </div>
 </div>
 <div class="product-container">

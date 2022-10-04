@@ -27,17 +27,17 @@ permalink: /shop/
 
 <!-- product row -->
 <div class="product-row">
-    <a class="product-img-link" href="{{ site.baseurl }}/gate-belt">
+    <a class="product-img-link" href="{{ site.url }}/gate-belt">
         <img class="product-img" src="../images/products/belt-shot1.png">
     </a>
-    <a class="product-img-link" href="{{ site.baseurl }}/transcendance-tee">
+    <a class="product-img-link" href="{{ site.url }}/transcendance-tee">
         <img class="product-img" src="../images/products/angel-tee1.png">
     </a>
-    <a class="product-img-link" href="{{ site.baseurl }}/spiral-tee">
+    <a class="product-img-link" href="{{ site.url }}/spiral-tee">
         <img class="product-img" src="../images/products/spiral-tee.png">
     </a>
-    <a class="product-img-link" href="{{ site.baseurl }}/compass-bandanna">
-        <img class="product-img" src="../images/products/bandana1.png">
+    <a class="product-img-link" href="{{ site.url }}/compass-bandanna">
+        <img class="product-img" src="/images/products/bandana1.png">
     </a>
 </div>
 
