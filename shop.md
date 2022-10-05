@@ -3,9 +3,6 @@ layout: default
 title: shop
 permalink: /shop/
 ---
-<style>
-
-</style>
 <!-- nav links -->
 <div class="content-container">
 <div class="nav-container">
@@ -26,7 +23,7 @@ permalink: /shop/
 </div>
 
 <!-- product row -->
-<div class="product-row">
+<div class="product-row crt">
     <a class="product-img-link" href="{{ site.url }}/gate-belt">
         <img class="product-img" src="../images/products/belt-shot1.png">
     </a>
