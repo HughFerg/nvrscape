@@ -46,6 +46,10 @@ img {
     align-items: center;
 }
 
+.product-img {
+    max-width: 90%;
+}
+
 @media only screen and (min-device-width: 768px) {
     .content-container {
         // height: 60em;
@@ -58,7 +62,7 @@ img {
 
     .product-row {
         display: flex;
-        padding: 2em 1em 4em 1em;
+        padding: 2em 1em 4em;
         justify-content: center;
         align-items: center;
         width: 100%;
