@@ -3,6 +3,13 @@ layout: default
 title: shop
 permalink: /shop/
 ---
+<style>
+@media only screen and (min-device-width: 768px) {
+    .footer {
+        position: absolute;
+    }
+}
+    </style>
 <!-- nav links -->
 <div class="content-container">
 <div class="nav-container">
