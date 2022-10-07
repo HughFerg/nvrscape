@@ -15,7 +15,7 @@ permalink: /faq/
     </div>
     <div class="nav-links">
         <a class="nav-link" href="{{ site.url }}/">home</a>
-        <a class="nav-link" href="{{ site.url }}/shop">shop</a>
+        <a class="nav-link" href="{{ site.url }}/collections/all/">collections</a>
         <a class="nav-link" href="{{ site.url }}/gallery">gallery</a>
         <a class="nav-link active" href="{{ site.url }}/faq">faq</a>
     </div>
