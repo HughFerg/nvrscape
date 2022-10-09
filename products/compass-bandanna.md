@@ -22,6 +22,7 @@ permalink: /compass-bandanna/
 </div>
 <div class="product-container">
 <div id='product-component-1664488347396'></div>
+<div id='product-component-1665355645873'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -50,7 +51,7 @@ permalink: /compass-bandanna/
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '7790782120182',
-        node: document.getElementById('product-component-1664488347396'),
+        node: document.getElementById('product-component-1665355645873'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -68,6 +69,13 @@ permalink: /compass-bandanna/
       },
       "button": {
         "font-family": "Lato, sans-serif",
+        ":hover": {
+          "background-color": "#181414"
+        },
+        "background-color": "#0e0c0c",
+        ":focus": {
+          "background-color": "#181414"
+        },
         "border-radius": "0px",
         "padding-left": "138px",
         "padding-right": "138px"
@@ -122,6 +130,13 @@ permalink: /compass-bandanna/
       },
       "button": {
         "font-family": "Lato, sans-serif",
+        ":hover": {
+          "background-color": "#181414"
+        },
+        "background-color": "#0e0c0c",
+        ":focus": {
+          "background-color": "#181414"
+        },
         "border-radius": "0px",
         "padding-left": "138px",
         "padding-right": "138px"
@@ -163,6 +178,13 @@ permalink: /compass-bandanna/
     "styles": {
       "button": {
         "font-family": "Lato, sans-serif",
+        ":hover": {
+          "background-color": "#181414"
+        },
+        "background-color": "#0e0c0c",
+        ":focus": {
+          "background-color": "#181414"
+        },
         "border-radius": "0px"
       }
     },
@@ -178,7 +200,14 @@ permalink: /compass-bandanna/
   "toggle": {
     "styles": {
       "toggle": {
-        "font-family": "Lato, sans-serif"
+        "font-family": "Lato, sans-serif",
+        "background-color": "#0e0c0c",
+        ":hover": {
+          "background-color": "#181414"
+        },
+        ":focus": {
+          "background-color": "#181414"
+        }
       }
     },
     "googleFonts": [

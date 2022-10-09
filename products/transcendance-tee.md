@@ -22,6 +22,7 @@ permalink: /transcendance-tee/
 </div>
 <div class="product-container">
 <div id='product-component-1664488383264'></div>
+<div id='product-component-1665355569113'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -50,7 +51,7 @@ permalink: /transcendance-tee/
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '7673644482806',
-        node: document.getElementById('product-component-1664488383264'),
+        node: document.getElementById('product-component-1665355569113'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -68,6 +69,13 @@ permalink: /transcendance-tee/
       },
       "button": {
         "font-family": "Lato, sans-serif",
+        ":hover": {
+          "background-color": "#181414"
+        },
+        "background-color": "#0e0c0c",
+        ":focus": {
+          "background-color": "#181414"
+        },
         "border-radius": "0px",
         "padding-left": "138px",
         "padding-right": "138px"
@@ -122,6 +130,13 @@ permalink: /transcendance-tee/
       },
       "button": {
         "font-family": "Lato, sans-serif",
+        ":hover": {
+          "background-color": "#181414"
+        },
+        "background-color": "#0e0c0c",
+        ":focus": {
+          "background-color": "#181414"
+        },
         "border-radius": "0px",
         "padding-left": "138px",
         "padding-right": "138px"
@@ -163,6 +178,13 @@ permalink: /transcendance-tee/
     "styles": {
       "button": {
         "font-family": "Lato, sans-serif",
+        ":hover": {
+          "background-color": "#181414"
+        },
+        "background-color": "#0e0c0c",
+        ":focus": {
+          "background-color": "#181414"
+        },
         "border-radius": "0px"
       }
     },
@@ -178,7 +200,14 @@ permalink: /transcendance-tee/
   "toggle": {
     "styles": {
       "toggle": {
-        "font-family": "Lato, sans-serif"
+        "font-family": "Lato, sans-serif",
+        "background-color": "#0e0c0c",
+        ":hover": {
+          "background-color": "#181414"
+        },
+        ":focus": {
+          "background-color": "#181414"
+        }
       }
     },
     "googleFonts": [
