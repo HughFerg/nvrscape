@@ -5,16 +5,12 @@ permalink: /gallery/
 ---
 <style>
 .promo-video-container {
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 2em; */
     position: relative;
     width: 100%;
     padding-top: 2em;
     padding-bottom: 56.25%;
     height: 0;
+    margin: 0 auto;
 }
 .promo-video-container iframe{
     position: absolute;
@@ -24,14 +20,22 @@ permalink: /gallery/
     height: 100%;
 }
 
+.footer {
+    padding-top: 4em;
+}
+
 @media only screen and (min-device-width: 768px) {
-    .footer {
-        /* position: absolute; */
+    .promo-video-container {
+        width: 100%;
+        padding-top: 2em;
+        padding-bottom: 50%;
+        height: 0;
+        margin: 0 auto;
     }
 }
 </style>
 <!-- nav links -->
-<div class="nav-container">
+<div class="nav-container" style="padding-bottom: 4em;">
     <!-- gif header -->
     <div class="header-logo">
         <video class="header-img" autoplay loop muted playsinline defaultMuted>
