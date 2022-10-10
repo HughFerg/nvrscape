@@ -30,7 +30,7 @@ permalink: /collections/all/
 </div>
 
 <!-- product row -->
-<div class="product-row crt">
+<div class="product-row">
     <a class="product-img-link" href="{{ site.url }}/gate-belt">
         <img class="product-img" src="/images/products/belt-shot1.png">
     </a>
