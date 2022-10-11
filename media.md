@@ -1,7 +1,7 @@
 ---
 layout: default
-title: gallery
-permalink: /gallery/
+title: media
+permalink: /media/
 ---
 <style>
 .promo-video-container {
