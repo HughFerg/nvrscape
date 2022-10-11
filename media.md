@@ -53,5 +53,5 @@ permalink: /gallery/
 </div>
 
 <div class="promo-video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/X-3k-pjilJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe allow='autoplay' width="560" height="315" src="https://www.youtube.com/embed/X-3k-pjilJ0?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
