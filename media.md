@@ -5,19 +5,22 @@ permalink: /media/
 ---
 <style>
 .promo-video-container {
+    display: flex;
     position: relative;
     width: 100%;
     padding-top: 2em;
-    padding-bottom: 56.25%;
+    padding-bottom: 76.25%;
     height: 0;
-    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
 }
 .promo-video-container iframe{
     position: absolute;
-    top: 0;
-    left: 0;
+    /* top: 0;
+    left: 0; */
     width: 100%;
     height: 100%;
+    margin: 0 auto;
 }
 
 .footer {
@@ -28,10 +31,13 @@ permalink: /media/
     .promo-video-container {
         width: 100%;
         padding-top: 2em;
-        padding-bottom: 50%;
+        padding-bottom: 46.25%;
         height: 0;
-        margin: 0 auto;
     }
+    .promo-video-container iframe{
+        width: 90%;
+    }
+
 }
 </style>
 <!-- nav links -->
