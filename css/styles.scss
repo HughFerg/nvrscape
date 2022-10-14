@@ -44,7 +44,7 @@ img {
 }
 
 .product-row {
-    padding: 0em 0em 4em 2em;
+    padding: 0em 0em 4em 0em;
     justify-content: center;
     align-items: center;
 }
@@ -94,6 +94,10 @@ img {
     margin: auto;
     line-height: 1.75;
     // font-size: 1.25em;
+}
+
+.product-img-link {
+    cursor: pointer;
 }
 
 @keyframes flicker {
