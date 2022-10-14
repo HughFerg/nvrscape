@@ -9,7 +9,7 @@ permalink: /collections/all/
         position: absolute;
     }
 }
-    /* .glitch:hover {
+    .glitch:hover {
         animation: glitch 1s linear infinite;
     }
 
@@ -81,7 +81,7 @@ permalink: /collections/all/
         62% {
             transform: translate(-22px, 5px) skew(21deg);
         }
-    } */
+    }
 
     
 </style>
@@ -106,16 +106,16 @@ permalink: /collections/all/
 
 <!-- product row -->
 <div class="product-row">
-    <a class="product-img-link" href="{{ site.url }}/gate-belt">
+    <a class="product-img-link glitch" href="{{ site.url }}/gate-belt">
         <img class="product-img js-vhs-filter" src="/images/products/belt-shot1.png">
     </a>
-    <a class="product-img-link" href="{{ site.url }}/transcendance-tee">
+    <a class="product-img-link glitch" href="{{ site.url }}/transcendance-tee">
         <img class="product-img" src="/images/products/angel-tee1.png">
     </a>
-    <a class="product-img-link" href="{{ site.url }}/spiral-tee">
+    <a class="product-img-link glitch" href="{{ site.url }}/spiral-tee">
         <img class="product-img" src="/images/products/spiral-tee.png">
     </a>
-    <a class="product-img-link" href="{{ site.url }}/compass-bandanna">
+    <a class="product-img-link glitch" href="{{ site.url }}/compass-bandanna">
         <img class="product-img" src="/images/products/bandana1.png">
     </a>
 </div>

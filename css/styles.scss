@@ -346,3 +346,15 @@ img {
         }
     }
 }
+
+.trail {
+    /* className for the trail elements */
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    background-size: contain;
+    opacity: .5;
+    // border-radius: 3px;
+    // background: teal;
+    background-image: url('/images/SMPTE_Color_Bars.svg');
+}
