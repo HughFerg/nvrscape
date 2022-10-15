@@ -25,7 +25,7 @@ img {
     justify-content: center;
     flex-direction: column;
     row-gap: 0;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .nav-link {
@@ -69,6 +69,10 @@ img {
         justify-content: center;
         align-items: center;
         width: 100%;
+    }
+
+    .nav-container {
+        padding-bottom: 2em;
     }
 
     .product-container {
@@ -353,7 +357,7 @@ img {
     height: 6px;
     width: 6px;
     background-size: contain;
-    opacity: .5;
+    opacity: .35;
     // border-radius: 3px;
     // background: teal;
     background-image: url('/images/SMPTE_Color_Bars.svg');
