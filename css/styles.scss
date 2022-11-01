@@ -80,6 +80,9 @@ img {
         // flex-direction: column;
         padding-top: 3em;
     }
+    .trail {
+        opacity: .35;
+    }
 }
 
 .footer {
@@ -357,8 +360,17 @@ img {
     height: 6px;
     width: 6px;
     background-size: contain;
-    opacity: .35;
+    opacity: 0;
     // border-radius: 3px;
     // background: teal;
     background-image: url('/images/SMPTE_Color_Bars.svg');
+}
+
+.payment-img {
+    padding-top: .5em;
+    width: 6em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
