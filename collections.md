@@ -6,7 +6,7 @@ permalink: /collections/all/
 <style>
 @media only screen and (min-device-width: 768px) {
     .footer {
-        position: absolute;
+        /* position: absolute; */
     }
 }
     .glitch:hover {
@@ -90,11 +90,12 @@ permalink: /collections/all/
 <div class="nav-container">
     <!-- gif header -->
     <div class="header-logo">
-        <video class="header-img" autoplay loop muted playsinline defaultMuted>
+        <!-- <video class="header-img" autoplay loop muted playsinline defaultMuted>
             <source src="/images/rotating-logo.mp4" type="video/mp4">
-            <!-- webp here? -->
+            webp here?
             Your browser does not support the video tag.
-        </video> 
+        </video>  -->
+        <img class="header-img" src="/images/textLogo.png">
     </div>
     <div class="nav-links">
         <a class="nav-link" href="{{ site.url }}/">home</a>
@@ -106,14 +107,11 @@ permalink: /collections/all/
 
 <!-- product row -->
 <div class="product-row">
+    <a class="product-img-link glitch" href="{{ site.url }}/neverworks-hoodie">
+        <img class="product-img" src="/images/products/NeverWorks-Hoodie-Product-Shot.jpg">
+    </a>
     <a class="product-img-link glitch" href="{{ site.url }}/gate-belt">
         <img class="product-img js-vhs-filter" src="/images/products/belt-shot1.png">
-    </a>
-    <a class="product-img-link glitch" href="{{ site.url }}/transcendance-tee">
-        <img class="product-img" src="/images/products/angel-tee1.png">
-    </a>
-    <a class="product-img-link glitch" href="{{ site.url }}/spiral-tee">
-        <img class="product-img" src="/images/products/spiral-tee.png">
     </a>
     <a class="product-img-link glitch" href="{{ site.url }}/compass-bandanna">
         <img class="product-img" src="/images/products/bandana1.png">
