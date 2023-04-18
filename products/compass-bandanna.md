@@ -7,11 +7,12 @@ permalink: /compass-bandanna/
 <div class="nav-container">
     <!-- gif header -->
     <div class="header-logo">
-        <video class="header-img" autoplay loop muted>
-            <source src="../images/rotating-logo.mp4" type="video/mp4">
-            <!-- webp here? -->
+        <!-- <video class="header-img" autoplay loop muted playsinline defaultMuted>
+            <source src="/images/rotating-logo.mp4" type="video/mp4">
+            webp here?
             Your browser does not support the video tag.
-        </video> 
+        </video>  -->
+        <img class="header-img" src="/images/textLogo.png">
     </div>
     <div class="nav-links">
         <a class="nav-link" href="{{ site.url }}/">home</a>
