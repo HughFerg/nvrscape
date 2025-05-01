@@ -107,6 +107,9 @@ permalink: /collections/all/
 
 <!-- product row -->
 <div class="product-row">
+    <a class="product-img-link glitch" href="{{ site.url }}/deerhunter-tee">
+        <img class="product-img" src="/images/products/deerhunter.jpg">
+    </a>
     <a class="product-img-link glitch" href="{{ site.url }}/neverworks-hoodie">
         <img class="product-img" src="/images/products/NeverWorks-Hoodie-Product-Shot.jpg">
     </a>
